@@ -59,7 +59,7 @@ textarea {
 }
 textarea:focus{
     outline: none;
-    box-shadow: 0px 0px 10px 2px dark;
+    box-shadow: 0px 0px 10px 2px skyeblue;
 }
 
 textarea::placeholder, textarea::-webkit-input-placeholder{
