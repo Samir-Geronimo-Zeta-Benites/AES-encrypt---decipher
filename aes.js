@@ -11,9 +11,9 @@ function desencriptar() {
     try {
         const bytes = CryptoJS.AES.decrypt(texto, clave);
         const resultado = bytes.toString(CryptoJS.enc.Utf8);
-        document.getElementById("resultado").value = resultado || "⚠️ Texto inválido o clave incorrecta";
+        document.getElementById("resultado").value = resultado || "⚠️ Texto inválido, intente escribiendo una frase válida";
     } catch (e) {
-        document.getElementById("resultado").value = "⚠️ Error al desencriptar";
+        document.getElementById("resultado").value = "⚠️ Error al desencriptar, con una fráse común";
     }
 }
 //archivo.txt
