@@ -59,7 +59,7 @@ textarea {
 }
 textarea:focus{
     outline: none;
-    box-shadow: 0px 0px 10px 2px darkorchid;
+    box-shadow: 0px 0px 10px 2px white;
 }
 
 textarea::placeholder, textarea::-webkit-input-placeholder{
@@ -84,7 +84,7 @@ button:active{
     transform: scale(0.8)
 }
 button:focus{
-    box-shadow: 0px 0px 10px 2px darkorchid;
+    box-shadow: 0px 0px 10px 2px #4a90e2;
     transition: 0.9 ease-in-out white;
 }
 
