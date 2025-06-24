@@ -112,6 +112,8 @@ button:hover {
 
   textarea {
     height: 15%;
+    margin-bottom: 15px;
+    padding: 10px;
   }
 
   h1 {
